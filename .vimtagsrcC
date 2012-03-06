@@ -1,0 +1,2 @@
+unlet g:loaded_easytags
+map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --languages=c++ .<CR>
